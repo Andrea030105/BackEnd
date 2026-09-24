@@ -7,9 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Environment variables (credenziali Braintree, chiavi API, ecc.)
+.env
+.env.local
+.env.*.local
+
 node_modules
 dist
-dist-ssr
 *.local
 
 # Editor directories and files
